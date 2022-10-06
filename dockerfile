@@ -7,5 +7,5 @@ ADD . /students
 WORKDIR /students
 RUN pip install Flask
 COPY . . 
-CMD [ "python", "main.py" ]
-expose 5000
+EXPOSE 5000
+ENTRYPOINT [ "python" , "main.py" ]
