@@ -8,3 +8,4 @@ WORKDIR /students
 RUN pip install Flask
 COPY . . 
 CMD [ "python", "main.py" ]
+expose 5000
