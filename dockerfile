@@ -7,4 +7,4 @@ ADD . /students
 WORKDIR /students
 RUN pip install Flask
 COPY . . 
-CMD [ "python" , "-m" , "main.py" ]
+CMD [ "python", "run.py" ]
